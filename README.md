@@ -1,5 +1,9 @@
 # .
 
+Welcome to the Task Manager Project! This powerful application enables users to efficiently manage their tasks with ease and productivity.
+Experience seamless task organization with features like task creation, categorization, prioritization, and deadline tracking.
+Unique features include intuitive drag-and-drop functionality, real-time collaboration, and customizable notifications to keep you on top of your tasks.
+Enjoy the benefits of increased efficiency, enhanced productivity, and stress-free task management with our task manager.
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
