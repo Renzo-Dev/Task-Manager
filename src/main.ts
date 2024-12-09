@@ -1,3 +1,4 @@
+import '../src/styles/Restore.css'
 import { createApp } from 'vue'
 import App from './App.vue'
 import { useMainStore } from './store/useMainStore'

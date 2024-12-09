@@ -1,11 +1,12 @@
 <template>
-
+  <h2></h2>
 </template>
 
-<script setup lang="ts">
-
+<script lang="ts">
+export default {
+  name: 'TaskComponent',
+  setup() {},
+}
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

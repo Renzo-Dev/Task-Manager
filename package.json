@@ -1,10 +1,15 @@
 {
   "name": "task-manager",
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
+    "lint": "eslint \"./**/*.{js,ts,vue}\"",
+    "lint:fix": "eslint \"./**/*.{js,ts,vue}\" --fix",
+    "format": "prettier --write \"./**/*.{js,ts,vue,css,scss,json,md}\"",
+    "format:check": "prettier --check \"./**/*.{js,ts,vue,css,scss,json,md}\"",
     "check": "vue-tsc --noEmit && eslint \"./**/*.ts\" \"./**/*.vue\" --fix"
   },
   "dependencies": {
@@ -35,7 +40,7 @@
     "vue-tsc": "^2.1.10"
   },
   "keywords": [],
-  "author": "",
+  "author": "Dan Koshevoy",
   "license": "ISC",
   "description": ""
 }

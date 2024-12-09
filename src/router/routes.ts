@@ -4,6 +4,6 @@ export const routes = [
   {
     path: '/',
     name: 'HomePage',
-    component: () => import('../views/HomePage.vue')
-  }
+    component: () => import('../views/HomePage.vue'),
+  },
 ]
